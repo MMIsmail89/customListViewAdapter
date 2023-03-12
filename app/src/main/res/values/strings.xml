@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">custom ListView Adapter</string>
+    <string name="type">Type</string>
+    <string name="product_title">Product Title</string>
+    <string name="price">Price</string>
+    <string name="product_description">Product description</string>
+</resources>
