@@ -90,6 +90,15 @@ public class ProductAdapter_binding extends ArrayAdapter<Product> {
         }else if (values.get(position).getTitle().equals("Volkswagen")){
             binding.rowLayoutIvProduct.setImageResource(R.drawable.volkswagen);
         }
+        else if (values.get(position).getTitle().equals("Mitsubishi")){
+            binding.rowLayoutIvProduct.setImageResource(R.drawable.mitsubishi_50);
+
+            //            binding.rowLayoutIvProduct.setImageResource(R.drawable.mitsubishi_50);
+            binding.rowLayoutIvProduct.setImageResource(R.mipmap.mitsubishi_foreground);
+        }
+        else if (values.get(position).getTitle().equals("Ford")){
+            binding.rowLayoutIvProduct.setImageResource(R.drawable.ford_480);
+        }
 
         return convertView;
     }

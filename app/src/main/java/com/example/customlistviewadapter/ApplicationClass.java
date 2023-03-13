@@ -41,6 +41,8 @@ public class ApplicationClass extends Application {
         carsStore.add(new Product("Nissan", "Japanese reliability and innovation", "Altima", 25000.00, true));
         carsStore.add(new Product("Volkswagen", "German engineering and design", "Golf", 30000.00, false));
         carsStore.add(new Product("Peugeot", "French style and performance", "308", 35000.00, true));
+        carsStore.add(new Product("Mitsubishi", "Japanese engineering and technology", "Outlander", 28000.00, true));
+        carsStore.add(new Product("Ford", "American muscle", "Mustang", 35000.00, true));
 
 
     }

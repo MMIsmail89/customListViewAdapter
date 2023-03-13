@@ -82,8 +82,13 @@ public class ProductAdapter extends ArrayAdapter<Product> {
         }else if (values.get(position).getTitle().equals("Volkswagen")){
             ivCarBrand.setImageResource(R.drawable.volkswagen);
         }
-
-
+        else if (values.get(position).getTitle().equals("Mitsubishi")){
+//            ivCarBrand.setImageResource(R.drawable.mitsubishi_50);
+            ivCarBrand.setImageResource(R.mipmap.mitsubishi_foreground);
+        }
+        else if (values.get(position).getTitle().equals("Ford")){
+            ivCarBrand.setImageResource(R.drawable.ford_480);
+        }
         //
         return rowView;
     }
